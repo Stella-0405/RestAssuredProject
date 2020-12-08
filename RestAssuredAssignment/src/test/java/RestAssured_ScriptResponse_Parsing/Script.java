@@ -12,7 +12,8 @@ public class Script {
 		
 		Response response = RestAssured.get("https://api.ratesapi.io/api/2010-01-12");
 		System.out.println("Print--"+response.body().asString());
-		
+
+	
 		given().
 		when().
 		get("https://api.ratesapi.io/api/2010-01-12").
