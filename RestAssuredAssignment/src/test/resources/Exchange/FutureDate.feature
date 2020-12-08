@@ -1,8 +1,8 @@
 Feature: Check API for future date
 
   Scenario: To check response for future date
-    Given API for foreign exchange
+    Given API for future date
     When posted with future date Information
-    Then validate positive response code received
-    And store the response into response object
+    Then validate positive response code received for future date
+    And store the future response into response object
 
